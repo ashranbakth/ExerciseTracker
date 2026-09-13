@@ -1,0 +1,2 @@
+I added the mysql password/connection string with password
+in the dotnet user-secrets.
