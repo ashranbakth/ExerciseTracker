@@ -28,5 +28,11 @@ public class AppDbContext : DbContext
                 .HasColumnName("muscle_group");
 
         });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.Property(e => e.CreatedAt)
+                .HasColumnName("created_at");
+        });
     }
 }
